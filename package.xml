@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In-App Guidance Prompt Dashboard</fullName>
+    <description>Congrats! You&apos;re installing the In-App Guidance prompt dashboard and reports, which includes a custom report type, &quot;In-App Guidance with User Data - Prompt Dashboard&quot;. See the listing resources for details about how to add your own custom user data to the report type and other FAQs.
+
+We recommend making a copy of the dashboard or any reports before customizing them to ensure your changes are saved in case you wish to install a new version of this package as we release updates over time.</description>
+    <postInstallLink>http://sfdc.co/in-app-guidance-dashboard-faqs</postInstallLink>
+    <releaseNotesLink>http://sfdc.co/in-app-guidance-dashboard-faqs</releaseNotesLink>
+    <types>
+        <members>InAppGuidancePromptPackageV1</members>
+        <members>InAppGuidancePromptPackageV1/JGIgJwhjpdDvYTYwsyfuAPgCBCrarN</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>InAppGuidancePromptPackage_V1</members>
+        <members>InAppGuidancePromptPackage_V1/Overall_Engagement_by_Prompt_V1</members>
+        <members>InAppGuidancePromptPackage_V1/Prompt_Engagement_by_Type_V1</members>
+        <members>InAppGuidancePromptPackage_V1/Prompt_Engagement_by_User_V1</members>
+        <members>InAppGuidancePromptPackage_V1/Prompt_Last_Results_by_User_Profile_V1</members>
+        <members>InAppGuidancePromptPackage_V1/Prompt_Last_Results_by_User_Role_V1</members>
+        <members>InAppGuidancePromptPackage_V1/Prompt_Percent_Custom_Action_by_Profile_V1</members>
+        <members>InAppGuidancePromptPackage_V1/Prompt_Percent_Custom_Action_by_Role_V1</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>In_App_Guidance_User_Data_Prompt_Dasboard_V1</members>
+        <name>ReportType</name>
+    </types>
+    <version>49.0</version>
+</Package>
